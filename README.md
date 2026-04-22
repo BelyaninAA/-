@@ -29,3 +29,9 @@ SELECT
 FROM users u
 JOIN user_roles r ON u.role_id = r.role_id
 GROUP BY r.role_name;
+Логины 
+admin@company.com
+manager@company.com
+user@company.com
+Пароль
+Любой
